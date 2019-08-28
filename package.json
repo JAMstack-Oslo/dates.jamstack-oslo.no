@@ -1,0 +1,9 @@
+{
+  "name": "dates.jamstack-oslo.no",
+  "version": "0.0.0",
+  "description": "Website to list out the last Tuesday's in a month",
+  "main": "none",
+  "repository": "git@github.com:JAMstack-Oslo/dates.jamstack-oslo.no.git",
+  "author": "Alexander Alemayhu <alexander@alemayhu.com>",
+  "license": "MIT"
+}
