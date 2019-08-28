@@ -15,15 +15,15 @@ header {
 	background: white;
 	padding: 25px;
 	margin: 0 auto;
-	width: 480px;
+	width: 576px;
 }
 
 /* date lists */
 
 ul {
-	width: 144px;
+	width: 172px;
 	margin: 0 auto;
-	padding: 25px;
+	padding: 12px;	
 	list-style-type: none;
 }
 
