@@ -18,7 +18,6 @@ ul {
 }
 
 li {
-	text-decoration: none;
 	background: #F6EE55;
 	padding: 12px;
 	margin: 12px auto;
@@ -34,6 +33,11 @@ li {
 
 a {
 	color: hotpink;
+	text-decoration: none;
+}
+
+.imba {
+	color: #8F4242;
 }
 
 /* layout */

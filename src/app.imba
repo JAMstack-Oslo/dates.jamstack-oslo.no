@@ -11,7 +11,6 @@ tag App
 				<h2>
 				<ul> for tuesday in data
 					if data:indexOf(tuesday) == 0
-						console.log "FIRST"
 						<li.upcoming> "{tuesday}"
 					else
 						<li> "{tuesday}"						
@@ -21,6 +20,6 @@ tag App
 					<span> "Built by "
 						<a href="https://github.com/scanf"> "scanf "
 						"with "
-						<a href="http://imba.io"> "Imba"
+						<a.imba href="http://imba.io"> "Imba"
 
 Imba.mount <App[tuesdays]>
