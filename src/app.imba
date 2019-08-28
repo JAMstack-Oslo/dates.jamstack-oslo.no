@@ -11,6 +11,10 @@ tag App
 				<ul> for tuesday in remainingTuesdays()
 					<li> "{tuesday}"
 			<footer>
-				<h3> "FOOTER"
+				<p> 
+					<span> "Built by "
+						<a href="https://github.com/scanf"> "scanf "
+						"with "
+						<a href="http://imba.io"> "Imba"
 
 Imba.mount <App>

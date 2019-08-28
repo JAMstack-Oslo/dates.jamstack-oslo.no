@@ -29,3 +29,15 @@ li {
 	text-align: center;
 	font-size: 26px;
 }
+
+a {
+	color: hotpink;
+}
+
+/* layout */
+/* TODO: clean up this file ; */
+
+footer {
+	text-align: center;
+	color: white;
+}
