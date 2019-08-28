@@ -17,10 +17,6 @@ ul {
 	list-style-type: none;
 }
 
-upcoming-date {
-	color: #A7E66E;
-}
-
 li {
 	text-decoration: none;
 	background: #F6EE55;
@@ -29,6 +25,12 @@ li {
 	text-align: center;
 	font-size: 26px;
 }
+
+
+.upcoming {
+	background: #A7E66E;
+}
+
 
 a {
 	color: hotpink;
