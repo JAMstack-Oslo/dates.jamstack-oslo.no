@@ -1,6 +1,14 @@
 body {
 	margin: 0;
 	background: #333;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* layout */
+
+footer {
+	text-align: center;
+	color: white;
 }
 
 header {
@@ -9,6 +17,8 @@ header {
 	margin: 0 auto;
 	width: 480px;
 }
+
+/* date lists */
 
 ul {
 	width: 144px;
@@ -31,6 +41,8 @@ li {
 }
 
 
+/* links */
+
 a {
 	color: hotpink;
 	text-decoration: none;
@@ -38,12 +50,4 @@ a {
 
 .imba {
 	color: #8F4242;
-}
-
-/* layout */
-/* TODO: clean up this file ; */
-
-footer {
-	text-align: center;
-	color: white;
 }
