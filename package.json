@@ -5,5 +5,17 @@
   "main": "none",
   "repository": "git@github.com:JAMstack-Oslo/dates.jamstack-oslo.no.git",
   "author": "Alexander Alemayhu <alexander@alemayhu.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "imba": "^1.4.4",
+    "webpack": "^4.39.3",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --content-base dist/",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
 }
