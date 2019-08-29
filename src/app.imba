@@ -4,10 +4,10 @@ let tuesdays = remainingTuesdays()
 tag App
 
 	def render
-		<self>
+		<self.container>
 			<header>
 				<h1> "Potential Dates for "
-					<a href="https://www.meetup.com/JAMstack-Oslo/"> "JAMstack Oslo"
+					<a.jamstack-oslo href="https://www.meetup.com/JAMstack-Oslo/"> "JAMstack Oslo"
 			<main>
 				<ul> for tuesday in data
 					<li> "{tuesday}"						
