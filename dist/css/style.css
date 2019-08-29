@@ -35,8 +35,7 @@ li {
 	font-size: 26px;
 }
 
-
-.upcoming {
+li:first-child {
 	background: #A7E66E;
 }
 

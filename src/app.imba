@@ -11,10 +11,7 @@ tag App
 			<main>
 				<h2>
 				<ul> for tuesday in data
-					if data:indexOf(tuesday) == 0
-						<li.upcoming> "{tuesday}"
-					else
-						<li> "{tuesday}"						
+					<li> "{tuesday}"						
 							
 			<footer>
 				<p> 
