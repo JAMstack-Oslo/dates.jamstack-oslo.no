@@ -8,12 +8,11 @@ body {
 /* layout */
 
 .container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	display: grid;
 	justify-content: center;
 	padding: 0;
 	margin: 0;
+	height: 100vh;
 }
 
 footer {
@@ -21,13 +20,12 @@ footer {
 	color: white;
 }
 
-header {
+.title {
 	background: white;
-	padding: 25px;
+	padding: 1rem;
 	margin: 0 auto;
 	width: 80%;
 	text-align: center;
-	font-size: 1.2em;
 }
 
 /* date lists */
@@ -35,7 +33,7 @@ header {
 ul {
 	width: auto;
 	margin: 0 auto;
-	padding: 12px;	
+	padding: 0.5rem;	
 	list-style-type: none;
 }
 

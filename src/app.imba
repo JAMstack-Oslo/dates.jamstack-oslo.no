@@ -5,9 +5,8 @@ tag App
 
 	def render
 		<self.container>
-			<header>
-				<h1> "Potential Dates for "
-					<a.jamstack-oslo href="https://www.meetup.com/JAMstack-Oslo/"> "JAMstack Oslo"
+			<h1.title> "Potential Dates for "
+				<a.jamstack-oslo href="https://www.meetup.com/JAMstack-Oslo/"> "JAMstack Oslo"
 			<main>
 				<ul> for tuesday in data
 					<li> "{tuesday}"						
