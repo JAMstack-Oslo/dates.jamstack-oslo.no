@@ -27,4 +27,9 @@ export def remainingTuesdays
 	while i < 12
 		tuesdays.push(lastTuesdaysIn(year, i))
 		i = i + 1
+	# If we are in Q4 then show next year as well
+	if tuesdays:length < 3
+		const nextYear = year + 1
+		for i in [1..12]
+			tuesdays.push(lastTuesdaysIn(nextYear, i))
 	tuesdays.filter(Boolean)
